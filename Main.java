@@ -7,7 +7,7 @@ public class Main{
 Scanner sc = new Scanner (System.in);
 
 // Write a java program to input month number and print number of days in that month.
-    System.out.println("Enter month number please :");
+    /* System.out.println("Enter month number please :");
     int month = sc.nextInt();
 
     if (month == 1){
@@ -65,5 +65,71 @@ Scanner sc = new Scanner (System.in);
     else if (month == 12){
 
       System.out.println("No of days in december is 31.");
+    }  */
+
+    // Greedy alogorithm problem
+ // java program to count total number of notes in given amount
+
+    System.out.println("Enter the amount please!");    // ### very good question
+    
+    int amount = sc.nextInt();
+
+    if(amount >= 500){
+
+      int note500 = amount/500;
+
+      System.out.println("Note of 500 is " + note500 + ".");
+
+      amount -= note500 * 500;
+
     }
+    
+    if(amount >= 100){
+
+      int note100 = amount/100;
+
+      System.out.println("Note of 100 is " + note100 + ".");
+
+      amount -= note100 * 100;
+    }
+
+    if (amount >= 50){
+
+      int note50 = amount/50;
+
+      System.out.println("Note of 50 is " + note50 + ".");
+    
+
+      amount -= note50 * 50;
+    }
+
+    if (amount >= 20){
+      
+      int note20 = amount/20;
+
+      System.out.println("Note of 20 is " + note20 + ".");
+
+      amount -= note20 * 20;
+    }
+
+    if (amount >= 10){
+
+      int note10 = amount/10;
+
+      System.out.println("Note of 10 is " + note10 + ".");
+
+      amount -= note10 *10;
+    }
+
+    if (amount >= 1){
+
+      int note1 = amount/1;
+
+      System.out.println("Note of 1 is " + note1 + ".");
+
+
+    }
+
+    System.out.println("Thank you!");
+
 }}
