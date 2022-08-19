@@ -170,7 +170,91 @@ Scanner sc = new Scanner (System.in);
    else if ( a == b || b == c || c == a){
 
     System.out.println("Triangle is isosceles.");
-    
+
    } */
-                                   
-}}
+
+   // Write a java program to find all roots of a quadratic equation.
+
+   /* System.out.println("Enter the value of a,b and c");
+    double a = sc.nextDouble();
+    double b = sc.nextDouble();
+    double c = sc.nextDouble(); 
+     double deter = b * b - 4 * a * c;
+     double root1;
+     double root2;
+
+     if (deter > 0){
+
+      root1 = (-b + Math.sqrt(deter)) / 2 * a;
+      root2 = (-b - Math.sqrt(deter)) / 2 * a;
+
+      System.out.println("Root(+)=" + root1);
+      System.out.println("Root(+)=" + root2);
+
+
+
+     }
+
+     if (deter == 0){
+
+      root2 = -b / (2 * a);
+
+      System.out.println("Root(+ and -)=" + root2);
+     } */
+ 
+ // Write a  java program to calculate profit or loss. 
+
+    /* System.out.println("Enter your investment please!");
+     int invest = sc.nextInt();
+
+     System.out.println("Enter your return of investment please!");
+
+     int retur = sc.nextInt();
+
+     int profit;
+     int loss;
+
+     if(invest < retur){
+      
+      profit = retur - invest;
+
+      System.out.println("congratulation you have profit of " + "Rs" + profit + ".");
+
+     }
+
+     else if( invest > retur){
+
+      loss = invest - retur;
+
+      System.out.println("Really sorry you have loss of " + "Rs" + loss + ".");
+     }
+
+     else{
+
+      System.out.println("Nor loss nor profit or invalid input.");
+     } 
+       */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+}
