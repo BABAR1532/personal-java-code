@@ -148,5 +148,29 @@ Scanner sc = new Scanner (System.in);
   } 
 
   */
+
+ // Write a java program to check whether the triangle is equilateral, isosceles or scalene triangle.
+   
+  /* System.out.println("Enter the side of triangle:");
+   int a = sc.nextInt();
+   int b = sc.nextInt();
+   int c = sc.nextInt();
+
+
+   if ( a == b && a == c){
+
+    System.out.println("Triangle is equilateral.");
+   }
+
+   else if ((a != b) && (b != c) && (a != c)){
+
+    System.out.println("Triangle is scalene.");
+   }
+
+   else if ( a == b || b == c || c == a){
+
+    System.out.println("Triangle is isosceles.");
+    
+   } */
                                    
 }}
