@@ -70,7 +70,7 @@ Scanner sc = new Scanner (System.in);
     // Greedy alogorithm problem
  // java program to count total number of notes in given amount
 
-    System.out.println("Enter the amount please!");    // ### very good question
+  /*  System.out.println("Enter the amount please!");    // ### very good question
     
     int amount = sc.nextInt();
 
@@ -130,6 +130,21 @@ Scanner sc = new Scanner (System.in);
 
     }
 
-    System.out.println("Thank you!");
+    System.out.println("Thank you!"); */
 
+ // Write a java program to input angles of a triangle and check whether triangle is valid or not.
+ 
+ /* System.out.println("Enter the angle of triangle");
+  int angle1 = sc.nextInt();
+  int angle2 = sc.nextInt();
+  int angle3 = sc.nextInt();
+
+  if (angle1 + angle2 + angle3 == 180){
+    System.out.println("Triangle is valid.");
+  }   
+
+  else{
+    System.out.println("Triangle is not valid!");
+  } */
+                                   
 }}
