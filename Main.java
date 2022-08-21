@@ -1,4 +1,5 @@
  import java.util.Scanner;
+ import static java.lang.Math.max;
 
 public class Main{
 
@@ -175,11 +176,12 @@ Scanner sc = new Scanner (System.in);
 
    // Write a java program to find all roots of a quadratic equation.
 
-   /* System.out.println("Enter the value of a,b and c");
+/*
+    System.out.println("Enter the value of a,b and c");
     double a = sc.nextDouble();
     double b = sc.nextDouble();
     double c = sc.nextDouble(); 
-     double deter = b * b - 4 * a * c;
+     double deter = (b * b) - (4 * a * c);
      double root1;
      double root2;
 
@@ -189,19 +191,46 @@ Scanner sc = new Scanner (System.in);
       root2 = (-b - Math.sqrt(deter)) / 2 * a;
 
       System.out.println("Root(+)=" + root1);
-      System.out.println("Root(+)=" + root2);
+      System.out.println("Root(-)=" + root2);
+      System.out.println("Roots are real and different");
 
 
 
      }
 
-     if (deter == 0){
+     else if (deter == 0){
 
-      root2 = -b / (2 * a);
+      root2 = -b / 2 * a;
 
       System.out.println("Root(+ and -)=" + root2);
-     } */
- 
+      System.out.println("Roots are same real");
+     } 
+
+     
+
+      else if ( deter < 0){
+
+     double real = -b / (a * 2);
+     double imaginary = Math.sqrt(-deter) / (a * 2);    
+
+
+     // In this code of real and imaginary calculation when remove pretences then precedence of = is higher so 
+     // value is stored for real is -b that why  is gets wrong but when we add pretences it caluate (a*2) first 
+     //and we get accurate ans (Thank you)
+
+
+     System.out.println("First root is " + real + "+" + imaginary + "i");
+     System.out.println("Second root is " + real + "-" + imaginary + "i" );
+     System.out.println("Roots are imaginary!");
+
+     }
+
+     else{
+
+      System.out.println("Please input valid numbers!");
+     }
+        */
+     
  // Write a  java program to calculate profit or loss. 
 
     /* System.out.println("Enter your investment please!");
