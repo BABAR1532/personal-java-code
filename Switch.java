@@ -171,19 +171,7 @@ switch(day){
     default :
                System.out.println("Enter the valid Operation!");  } */
 
-      
-
-
-
-   
-
-
-
-
-
-
-
-
+ 
 
 }
 
