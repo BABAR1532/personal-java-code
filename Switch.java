@@ -40,7 +40,7 @@ switch(day){
                                                                   */
 // Write a java program print total number of days in a month using switch case.
 
-   System.out.println("Enter the month number please!");
+  /* System.out.println("Enter the month number please!");
 
    int month = sc.nextInt();
 
@@ -74,7 +74,7 @@ switch(day){
            System.out.println("Its september with 30 days.");
             break;
   case 10 :
-           System.out.println("Its october with 31 days.");
+            System.out.println("Its october with 31 days.");
              break;
   case 11 :
             System.out.println("Its november with 30 days.");
@@ -85,9 +85,97 @@ switch(day){
   default :
             System.out.println("Enter valid input!");                                                      
   
-   }
+   }  */
+
+// Write a java program to check whether an alphabet is vowel or consonant using switch case.
+
+  /*  System.out.println("Enter your alphabet:");
+
+   char alpha = sc.next().charAt(0);
+   
+   switch(alpha){
+
+  case 'a' :
+              System.out.println("Its vowel!");
+                break;
+  case 'i' :
+              System.out.println("Its vowel!"); 
+               break;            
+  case 'e' :
+              System.out.println("Its vowel!");
+              break;
+  case 'o' :
+              System.out.println("Its vowel!");
+                break; 
+  case 'u' :
+              System.out.println("Its vowel!");
+                break;
+  case 'A' :
+              System.out.println("Its vowel!");
+                break;
+  case 'I' :
+              System.out.println("Its vowel!");
+                break;
+  case 'E' :
+              System.out.println("Its vowel!");
+                break;             
+  case 'O' :
+              System.out.println("Its vowel!");
+                break;                            
+ case 'U' :
+              System.out.println("Its vowel!");
+                break;
+ default :
+             System.out.println("Its consonant!");
+                                                      } */
+
+// Write a java program to create Simple Calculator using switch case. 
+   
+  /* System.out.println("Hello geeks!\nWelcome to my first calculator program... ");
+
+     System.out.println("Enter your First number please!");
+        float num1 = sc.nextFloat();
+
+     System.out.println("Enter your Second number please!");
+        float num2 = sc.nextFloat();
+
+     System.out.println("Operation which you want to perform:");
+        char oper = sc.next().charAt(0);
+
+      float ans;  
 
 
+    switch (oper){
+    
+    case '+' :
+              ans = num1 + num2;
+               System.out.println("Sum of number is: "+ ans);
+                break;
+    case '-' :
+               ans = num1 - num2;
+                System.out.println("Difference of number is: " + ans);
+                 break;
+    case '/' : 
+               ans = num1 / num2;
+                 System.out.println("Quotient of number is: " + ans);
+                   break;
+    case '*' :
+               ans = num1 * num2;
+                System.out.println("Product of number is: " + ans);
+                  break;                                          
+    case '%' : 
+               ans = num1 % num2;
+                System.out.println("Remainder of number is: " + ans); 
+                break;
+
+    default :
+               System.out.println("Enter the valid Operation!");  } */
+
+      
+
+
+
+   
 
 
 
