@@ -86,7 +86,28 @@ public class loop{
 
  System.out.println("The value value of one number raised to the power of another is " + ans); */
                                                                                                
-                                                                                      
+/*  Write a program that prompts the user to input an integer and then outputs the number with
+   the digits reversed. For example, if the input is 12345, the output should be 54321 */
+
+/*
+   System.out.println("Enter your favourite number:");
+    int number = sc.nextInt();
+     int ans = 0;
+
+
+   while (number > 0){
+
+     int remainder = number % 10;
         
+       number /= 10;
+
+     ans =  ans * 10 + remainder;    
+
+       
+                                                    // very very important question.
+   }
+
+   System.out.println("Your favourite number reverse is " + ans); */
+
   }
 }
