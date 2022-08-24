@@ -138,7 +138,33 @@ public class loop{
 
   
 /* Write a program that prompts the user to input a positive integer. It should then output a
-    message indicating whether the number is a prime number.  */                                               
+    message indicating whether the number is a prime number.  */  
+
+  /* System.out.println("Enter a positive Integer");
+
+     int number = sc.nextInt();
+     boolean flag = true;
+
+     for(int i = 2; i < number; i++)
+     {
+
+        if(number % i == 0) 
+         {
+            flag = false;
+         }         
+     } 
+
+     if(flag && number > 1)
+     {
+        System.out.println("Yes baby its prime!");
+     }
+
+     else
+     {
+        System.out.println("No baby its not prime!");
+     }
+
+
   }
 
 }
