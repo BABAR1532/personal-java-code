@@ -162,7 +162,59 @@ public class loop{
      else
      {
         System.out.println("No baby its not prime!");
-     }
+     }                                                  */
+
+// Find the HCF of a number
+
+ /*   int divisor,divident,remainder;
+   int hcf = 0;
+
+   System.out.println("Enter the divisor:");
+    divisor = sc.nextInt();
+
+   System.out.println("Enter the divident:"); 
+    divident = sc.nextInt();
+
+
+   do
+   {
+       remainder = divident % divisor;
+  
+       if(remainder == 0)
+       {
+         
+         hcf = divisor;
+
+       }
+
+       else
+       {
+
+         divident = divisor;
+         divisor  = remainder;
+        
+       }
+    }
+
+    while(remainder != 0);    
+   
+
+   System.out.println("HCF of given number is " + hcf); */
+
+
+      
+
+    
+
+    
+
+
+
+
+
+
+
+    
 
 
   }
