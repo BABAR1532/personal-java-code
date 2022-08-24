@@ -109,38 +109,36 @@ public class loop{
 
 // Write a program that reads a set of integers, and then prints the sum of the even and odd integers.
  /*        
-
      int number;
-
      int odd = 0;
      int even = 0;
-
      char option;
 
-     do{
-
+     do
+     {
         System.out.println("Enter you number please!");
          number = sc.nextInt();
 
          if(number % 2 == 0){
 
-             even += number;
-         }
-
+             even += number; 
+                            } 
          else {
 
            odd += number;
-         }
-
+                           } 
+                                  
            System.out.println("Do you want to continue(y or Y)?");
-            option = sc.next().charAt(0);                                            }
+            option = sc.next().charAt(0);                           }
 
       while(option == 'y' || option == 'Y');
 
    System.out.println("Sum of even is " + even);
-   System.out.println("Sum of odd is " + odd);
-                                                  */
-                                                
+   System.out.println("Sum of odd is " + odd);   */
+
+  
+/* Write a program that prompts the user to input a positive integer. It should then output a
+    message indicating whether the number is a prime number.  */                                               
   }
 
 }
