@@ -201,6 +201,35 @@ public class loop{
 
    System.out.println("HCF of given number is " + hcf); */
 
+ /* Write a do-while loop that asks the user to enter two numbers. The numbers should be
+   added and the sum displayed. The loop should ask the user whether he or she wishes to
+   perform the operation again. If so, the loop should repeat; otherwise it should terminate. */
+
+ /*
+    int num1,num2,sum;
+    char choice;
+
+    do
+    {     
+          System.out.println("Enter the First number: ");
+           num1 = sc.nextInt();
+          System.out.println("Enter the second number:");
+           num2 = sc.nextInt(); 
+
+          sum = num1 + num2;
+          System.out.println("Sum of number is " + sum);
+
+       System.out.println("Do you want to continue(Y/y):");
+        choice = sc.next().charAt(0);    
+    }
+
+    while(choice == 'y' || choice == 'Y');   */
+
+
+    
+
+      
+
 
       
 
