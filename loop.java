@@ -94,7 +94,6 @@ public class loop{
     int number = sc.nextInt();
      int ans = 0;
 
-
    while (number > 0){
 
      int remainder = number % 10;
@@ -102,12 +101,46 @@ public class loop{
        number /= 10;
 
      ans =  ans * 10 + remainder;    
-
-       
-                                                    // very very important question.
+                                     // very very important question.
    }
+   
 
    System.out.println("Your favourite number reverse is " + ans); */
 
+// Write a program that reads a set of integers, and then prints the sum of the even and odd integers.
+ /*        
+
+     int number;
+
+     int odd = 0;
+     int even = 0;
+
+     char option;
+
+     do{
+
+        System.out.println("Enter you number please!");
+         number = sc.nextInt();
+
+         if(number % 2 == 0){
+
+             even += number;
+         }
+
+         else {
+
+           odd += number;
+         }
+
+           System.out.println("Do you want to continue(y or Y)?");
+            option = sc.next().charAt(0);                                            }
+
+      while(option == 'y' || option == 'Y');
+
+   System.out.println("Sum of even is " + even);
+   System.out.println("Sum of odd is " + odd);
+                                                  */
+                                                
   }
+
 }
