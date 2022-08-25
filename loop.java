@@ -263,15 +263,39 @@ public class loop{
     System.out.println("Number of positive value is: "+ positive);
     System.out.println("Number of negative value is: " + negative);
     System.out.println("Number of zeroes value is: " + zero);            */
+
                                                                          
-
+/* Write a program to enter the numbers till the user wants and at the end the program should
+   display the largest and smallest numbers entered. */
     
+   /*   
+      int number;
+      int large = Integer.MIN_VALUE;
+      int small = Integer.MAX_VALUE;
+      char choice;
 
-    
+     do  
+     {
+         System.out.println("Enter your number please!");
+             number = sc.nextInt();
 
+         if (number > large)
+         {
+            large = number;
+         }
 
+         if (number < small) 
+         {  
+             small = number;
+         }
 
+         System.out.println("Do you want to continue(y/Y)");
+          choice = sc.next().charAt(0);
 
+         }while(choice == 'y'|| choice == 'Y');  
+
+     System.out.println("Maximum number is " + large);
+     System.out.println("Minimum number is " + small);        */
 
 
 
