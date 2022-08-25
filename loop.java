@@ -373,12 +373,36 @@ public class loop{
     System.out.println("Sum of series " + number + " is " + sum ); */
 
 
+/* Write a program that generates a random number and asks the user to guess what the
+  number is. If the user's guess is higher than the random number, the program should
+  display "Too high, try again." If the user's guess is lower than the random number, the
+  program should display "Too low, try again." The program should use a loop that repeats
+  until the user correctly guesses the random number. */
 
+/*     int rand;
+     rand = (int) (Math.random() * 1000) + 1;
 
+    for(int i = 1 ; i <= rand;i++)
+    {
+        System.out.println("Guess the number:" + rand);
+         int guess = sc.nextInt();
 
+        if(guess > rand)
+        {
+            System.out.println("Guess is too high!,try again");
+        }
 
-
-
+        else if(guess < rand)
+        {
+            System.out.println("Guess is too low!,try again");
+        } 
+        
+        else if(guess ==  rand)
+        {
+            System.out.println("Your guess is correct it is " + rand);
+            break;
+        }
+    } */
 
   }
 
