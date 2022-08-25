@@ -226,12 +226,44 @@ public class loop{
     while(choice == 'y' || choice == 'Y');   */
 
 
-    
+ /* Write a program to enter the numbers till the user wants and at the end it should display the
+    count of positive, negative and zeros entered. */
 
+  /*   int number;
+     int positive = 0;
+     int negative = 0;
+     int zero = 0;
+     char choice;
+
+     do
+     {
+         System.out.println("Enter you number:");
+          number = sc.nextInt();
+
+         if(number > 0)
+         {
+            positive++;
+         }
+
+         else if (number < 0) 
+          {
+            negative++;
+          }     
+          
+         else
+         {
+            zero++;
+         }
       
+         System.out.println("Do you want to continue(y/Y):");
+          choice = sc.next().charAt(0);
 
+     }while(choice == 'y'|| choice == 'Y'); 
 
-      
+    System.out.println("Number of positive value is: "+ positive);
+    System.out.println("Number of negative value is: " + negative);
+    System.out.println("Number of zeroes value is: " + zero);            */
+                                                                         
 
     
 
