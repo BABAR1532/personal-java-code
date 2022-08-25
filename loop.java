@@ -297,9 +297,73 @@ public class loop{
      System.out.println("Maximum number is " + large);
      System.out.println("Minimum number is " + small);        */
 
+/* Write a program to print out all Armstrong numbers between 1 and 500. If sum of cubes of
+   each digit of the number is equal to the number itself, then the number is called an
+   Armstrong number.For example, 153 = ( 1 * 1 * 1 ) + ( 5 * 5 * 5 ) + ( 3 * 3 * 3 ) */   
+ /*
+      int digit1;
+      int digit2;
+      int digit3;
+
+    for (int number = 1; number <= 500 ; number++)  
+    {
+        int temp = number;
+        digit1 = temp % 10;
+
+        temp /= 10;
+        digit2 = temp % 10;
+
+        temp /= 10;
+        digit3 = temp % 10;
 
 
-    
+         if(digit1 * digit1 * digit1 + digit2 * digit2 * digit2 + digit3 * digit3 * digit3 == number )  
+         {
+             System.out.println(number);
+         } 
+    } */
+
+// Write a program to print Fibonacci series of n terms where n is input by user.
+/*   
+   int terms;
+   int term1 = 0;
+   int term2 = 1;
+   int nexterm = 0;
+
+   System.out.println("Enter total number of terms you want in fibonacci series:");
+    terms = sc.nextInt();
+   System.out.println("Fibonacci series of " + terms +" term" + " is: "); 
+
+   for(int i = 0 ; i <= terms ; i++) 
+   {
+        if(i == 0)
+        {
+            System.out.println(term1 + " ");
+        }
+
+        if(i == 1)
+        {
+             System.out.println(term2 + " ");
+        }
+
+
+       nexterm = term1 + term2;
+       term1 = term2;
+       term2 = nexterm;
+
+      System.out.println(nexterm + " ");  
+
+    }                                               */
+
+     
+
+
+
+
+
+
+
+
 
 
   }
