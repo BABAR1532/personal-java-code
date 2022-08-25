@@ -353,10 +353,24 @@ public class loop{
 
       System.out.println(nexterm + " ");  
 
-    }                                               */
+    } */
 
+/* Write a program to calculate the sum of following series where n is input by user.
+   1 + 1/2 + 1/3 + 1/4 + 1/5 +…………1/n */
+
+  /*   
+     System.out.println("Enter the number upto where you want to find sum of series:");
+      int number =  sc.nextInt();
+
+     double sum = 0;
      
+     for(int i = 1 ; i <= number; i++) 
+     {
+         sum += 1.0/i; 
 
+     } 
+     
+    System.out.println("Sum of series " + number + " is " + sum ); */
 
 
 
