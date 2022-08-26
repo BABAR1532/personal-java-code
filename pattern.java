@@ -36,7 +36,7 @@ public class pattern{
       4 4 4   */
 
  
- /* int number;
+/*  int number;
     System.out.println("Enter the no of rows your want for number square.");
     number = sc.nextInt();
   
@@ -47,11 +47,31 @@ public class pattern{
            System.out.print(i + " ");
        }
 
-      System.out.println();  
+     System.out.println();
+
    } */  
 
+/* Print this pattern question
+    1 2 3 4
+    1 2 3 4                      //summary: same as pervious just print column no in inner loop.
+    1 2 3 4
+    1 2 3 4   */
 
 
+ /* int number;
+    System.out.println("Enter the no of rows you want in square pattern.");
+     number = sc.nextInt();
+
+    for(int i = 1;i <= number;i++) 
+    {
+        for(int col = 1;col <= number;col++)
+        {
+            System.out.print(col + " ");
+        }  
+
+       System.out.println();
+
+    } */
 
 
 
