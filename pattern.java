@@ -185,7 +185,37 @@ public class pattern{
           
     } */
 
-    
+/* solve this priting problem.
+     1
+     2 3                         // Summary: just print counting starting form the row number.
+     3 4 5
+     4 5 6 7
+     8 9 10 11  */
+
+ /*  int number;
+   System.out.println("Enter the number of rows you want to print in triangle:");
+   number = sc.nextInt();
+
+   for(int i = 1; i <= number; i++)     
+   { 
+
+     int count = i;                 // Main key of this question
+
+      for(int col = 1; col <= i; col++ )
+      {
+          System.out.print(count + " " );
+           count++;    
+      }
+
+     System.out.println();
+         
+   } */
+
+
+
+
+
+  
 
 
 
