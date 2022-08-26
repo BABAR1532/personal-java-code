@@ -73,10 +73,32 @@ public class pattern{
 
     } */
 
+/* same question like above,just number are altered.
+
+   3 2 1                          // Summary- just use formula number - col + 1 we get reverse        
+   3 2 1                            number column.
+   3 2 1 */
+
+ 
+ /* System.out.println("Enter the no of rows you want in reverse square pattern.");
+   int number = sc.nextInt();
+
+   for(int i = 1; i <= number; i++) 
+   {
+     for(int col = 1 ; col <= number; col++)
+     {
+        System.out.print((number-col+1) + " " );
+     }
+
+    System.out.println();
+        
+  }  
+
 /* Print the following pattern
      1 2 3
      4 5 6                          // Summary: just print counting number and increment in loop.
      7 8 9  */
+     
 
   /*   int number;
      System.out.println("Enter no of rows you want to print square number.");
@@ -95,6 +117,26 @@ public class pattern{
        
      } */
 
+/* Solve left triangle pattern questions
+     *
+     * *                            // Summary: just we have to print row = no of *.     
+     * * *
+     * * * *    */
+
+ /*  int number;
+   System.out.println("Enter the no rows you want to print in triangle:");
+   number = sc.nextInt();
+
+   for(int i = 1; i <= number; i++) 
+   {
+     for (int col = 1; col <= i; col++)
+     {
+        System.out.print("*" + " ");
+     }
+    
+    System.out.println();
+
+   } */     
 
 
 
