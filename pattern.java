@@ -78,7 +78,7 @@ public class pattern{
      4 5 6
      7 8 9  */
 
-     int number;
+  /*   int number;
      System.out.println("Enter no of rows you want to print square number.");
       number = sc.nextInt();
      int count = 1;
@@ -92,7 +92,7 @@ public class pattern{
         }
 
        System.out.println();     
-     }
+     } */
 
 
 
