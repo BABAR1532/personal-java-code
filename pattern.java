@@ -141,12 +141,12 @@ public class pattern{
 /* solve this right triangle pattern question
      1
      2 2
-     3 3 3
-     4 4 4 4 
+     3 3 3                     // summary: just do as pevious question and replace * with i. 
+     4 4 4 4                              
      5 5 5 5 5 */
 
  
-    int  number;
+ /*   int  number;
     System.out.println("Enter the no of rows you want in triangle:");
     number = sc.nextInt();
 
@@ -157,8 +157,33 @@ public class pattern{
             System.out.print(i + " ");
         }
 
-       System.out.println();     
-    }  
+       System.out.println();
+
+    }*/  
+
+/* solve this printing question
+    1 
+    2 3                           // Summary: same question as previous just print 
+    4 5 6                             counting number in place of i.
+    7 8 9 10  */ 
+
+/*
+    int number;
+    int count = 1;
+    System.out.println("Enter the number of rows you want to print in triangle:");
+    number = sc.nextInt();
+
+    for(int i = 1; i<= number; i++)
+    {
+        for(int col = 1; col <= i; col++)
+        {
+            System.out.print(count + " ");
+             count ++;
+        } 
+
+       System.out.println();  
+          
+    } */
 
     
 
