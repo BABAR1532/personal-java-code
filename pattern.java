@@ -73,7 +73,26 @@ public class pattern{
 
     } */
 
+/* Print the following pattern
+     1 2 3
+     4 5 6
+     7 8 9  */
 
+     int number;
+     System.out.println("Enter no of rows you want to print square number.");
+      number = sc.nextInt();
+     int count = 1;
+     
+     for(int i = 1; i <= number; i++)  
+     {
+        for(int col = 1; col <= number; col++)
+        {
+            System.out.print(count + " ");
+             count ++;
+        }
+
+       System.out.println();     
+     }
 
 
 
