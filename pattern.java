@@ -138,6 +138,34 @@ public class pattern{
 
    } */     
 
+/* solve this right triangle pattern question
+     1
+     2 2
+     3 3 3
+     4 4 4 4 
+     5 5 5 5 5 */
+
+ 
+    int  number;
+    System.out.println("Enter the no of rows you want in triangle:");
+    number = sc.nextInt();
+
+    for(int i = 1; i <= number;i++)
+    {
+        for(int col = 1 ; col <= i; col++)
+        {
+            System.out.print(i + " ");
+        }
+
+       System.out.println();     
+    }  
+
+    
+
+
+
+
+
 
 
 
