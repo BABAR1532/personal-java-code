@@ -75,7 +75,7 @@ public class pattern{
 
 /* Print the following pattern
      1 2 3
-     4 5 6
+     4 5 6                          // Summary: just print counting number and increment in loop.
      7 8 9  */
 
   /*   int number;
@@ -85,7 +85,7 @@ public class pattern{
      
      for(int i = 1; i <= number; i++)  
      {
-        for(int col = 1; col <= number; col++)
+        for(int col = 1; col <= number; col++)          
         {
             System.out.print(count + " ");
              count ++;
