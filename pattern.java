@@ -91,7 +91,8 @@ public class pattern{
              count ++;
         }
 
-       System.out.println();     
+       System.out.println();
+       
      } */
 
 
