@@ -210,7 +210,7 @@ public class pattern{
      System.out.println();
     
     } */
-    
+
 /* solve this pattern question.
      1
      2 1                           /* summary: use this formula to print decreasing 
@@ -233,6 +233,55 @@ public class pattern{
     System.out.println(); 
    
    }
+
+/* Solve this pattern question
+     A A A
+     B B B
+     C C C                              Summary: easy question just we have to print alphabet
+     D D D                               using this formula (alpha + number - 1) and so on.
+                                         main highlight of question is conveting int to char. */
+
+
+   /*  int number;
+     int alpha = 65;
+     System.out.println("Enter the no of rows you want in alphabet square:");
+     number = sc.nextInt();
+
+    for(int i = 1; i <= number; i++)
+    {   
+        
+        for(int col = 1; col <= number; col++)
+        {
+            System.out.print((char)(alpha + i -1) + " " );
+        }
+
+       System.out.println();
+
+    }  */
+
+/* solve this pattern question.
+    A B C
+    A B C                         // Summary: Same question just increase the value of alpha
+    A B C                                      in inner loop.  
+    A B C  */
+
+ /*   int number;
+    System.out.println("Enter the number of rows you want to print in alpha pattern:");
+    number = sc.nextInt();
+
+    for(int i = 1; i <= number; i++)
+    {    
+         int alpha = 65;
+
+         for(int col = 1; col <= number; col++)
+         {
+            System.out.print((char) alpha + " ");
+              alpha++;
+         }
+
+       System.out.println(); 
+
+    }*/  
 
 
   
