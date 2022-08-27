@@ -208,11 +208,31 @@ public class pattern{
       }
 
      System.out.println();
-         
-   } */
+    
+    } */
+    
+/* solve this pattern question.
+     1
+     2 1                           /* summary: use this formula to print decreasing 
+     3 2 1                            counting number starting form row number (number-col+1)
+     4 3 2 1  */                               
 
+   /* int number;
+    System.out.println("Enter the no of rows you want to print in pattern:");
+    number = sc.nextInt(); 
+   
 
+   for(int i = 1; i <= number; i++)
+   {
+      for(int col = 1 ; col <= i ; col++ )
+      {
+        System.out.print(i-col+1 + " ");
 
+      }
+      
+    System.out.println(); 
+   
+   }
 
 
   
