@@ -252,7 +252,7 @@ public class pattern{
         
         for(int col = 1; col <= number; col++)
         {
-            System.out.print((char)(alpha + i -1) + " " );
+            System.out.print((char)(alpha + number -1) + " " );
         }
 
        System.out.println();
@@ -281,10 +281,150 @@ public class pattern{
 
        System.out.println(); 
 
-    }*/  
+    }*/ 
+
+/*  Solve this pattern question
+    A B C D
+    E F G H                           // Summary: same question as pervious.
+    I G K L  */
+
+ /*   int number;
+    int alpha = 65;
+    System.out.println("Enter the no of rows you want to print:");
+    number = sc.nextInt();
+
+    for(int i = 1; i <= number; i++)
+    {
+        for(int col = 1; col <= number; col++)
+        {
+            System.out.print((char) alpha + " " );
+             alpha++;
+        }
+
+       System.out.println(); 
+
+    } */    
+
+ /* Solve this pattern question
+     A B C
+     B C D                            // Summary: little bit hard for me to find formula
+     C D E                                        No need to increament alpha just use this
+                                                 formula(alpha + i + j -2) derived form i+j-1. */
+ 
+/*   int number;
+     int alpha = 65;
+     System.out.println("Enter the number of rows you want:");
+     number = sc.nextInt();
+
+    for(int i = 1; i <= number; i++)
+    {
+        for(int col = 1; col <= number; col++)
+        {
+            System.out.print((char)(alpha + i + col - 2) + " ");
+              
+        } 
+
+    System.out.println();
+                 
+    } */
+
+/* Solve this pattern.
+    A                                // Summary: Just to col <= i and and increament alpha
+    B B                                          int outer loop.
+    C C C  */
+
+/*   int number;
+     int alpha = 65;
+     System.out.println("Enter the number of rows you want");
+     number = sc.nextInt();
+
+     for(int i = 1; i <= number; i++)
+     {
+        for(int col = 1; col <= i; col++)
+        {
+            System.out.print((char)alpha + " ");
+        }
+
+       alpha++;
+       System.out.println();
+
+     } */
+
+ /* solve this pattern
+      A
+      B C                             // Summary: use this formula derive earlier alpha + i + col-2
+      C D E                
+      D E F G   
+      E F G H I  */
+
+ /* int number;
+  int alpha = 65;
+  System.out.println("Enter the number of rows you want to print triangle:");
+  number = sc.nextInt();
+
+  for(int i = 1; i <= number; i++)
+  {
+      for(int col = 1 ; col <= i; col++)
+      {
+         System.out.print((char)(alpha + i + col - 2) + " " );
+      } 
+     
+     System.out.println();
+
+  } */   
+
+/* Solve this pattern question
+   D                             // Summary: Use this formula to find every row first character
+   C D                                       (alpha - number - i) and put in outer loop.
+   B C D
+   A B C D */
 
 
-  
+/* int number;
+   int alpha = 65;
+   System.out.println("Enter the number of rows you want:");
+   number = sc.nextInt();
+
+
+   for(int i = 1; i <= number; i++)
+   {
+      int ans = alpha + number - i;
+
+      for(int col = 1; col <= i; col++)
+      {
+        System.out.print((char)(ans) + " ");
+         ans++;
+      } 
+
+     System.out.println();
+
+   } */
+
+/* Solve this pattern question(again new trick)
+     A B C                                           // Summary: Use this formula alpha + i - 1
+     B C D                                                        and apply it in outer loop.
+     C D E */
+
+
+ /*  int number;
+   int alpha = 65;
+   System.out.println("Enter the no of rows you want to print:");
+   number = sc.nextInt();
+
+   for(int i = 1; i <= number; i++)
+   {
+      int ans = alpha + i - 1;
+
+      for(int col = 1; col <= number; col++)
+      {
+        System.out.print((char) ans + " ");
+         ans ++;
+      }
+
+      System.out.println(); 
+
+   }*/
+
 
 
 
